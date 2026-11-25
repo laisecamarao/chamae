@@ -23,7 +23,7 @@ O **ChamaÊ** é uma plataforma desenvolvida em React que conecta clientes a pro
 ## Estrutura do projeto
 
 - `src/components`: componentes reutilizáveis, como Navbar, Rodapé e cards de serviços.
-- `src/pages`: páginas da aplicação.
+- `src/paginas`: páginas da aplicação.
 - `src/images`: imagens utilizadas no projeto.
 
 ## Como executar o projeto
