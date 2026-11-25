@@ -1,0 +1,61 @@
+.servicos {
+  background-color: #E5E8DC;
+  min-height: 80vh;
+  padding: 60px 40px;
+}
+
+.conteudo {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.conteudo h1 {
+    font-family: shrikhand;
+  color: #9fc031;
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-shadow: 4px 5px 0px #082F29;
+}
+
+.conteudo > p {
+  color: #082F29;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background-color: #F8F8F0;
+  padding: 30px 20px;
+  border-radius: 18px;
+  border: 1px solid #A5B98A;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  color: #00594F;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #082F29;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .lista {
+    grid-template-columns: 1fr;
+  }
+}

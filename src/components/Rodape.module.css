@@ -1,0 +1,17 @@
+.rodape {
+  width: 100%;
+}
+
+.rodape img {
+  width: 100%;
+  display: block;
+}
+
+.rodape p {
+  text-align: center;
+  color: #F8F8F0;
+  background-color: #00594F;
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+}

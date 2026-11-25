@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #00594F;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Shrikhand', cursive;
+  font-weight: 400;
+  color: #C7E99A;
+  font-size: 30px;
+  text-decoration: none;
+  text-shadow: 4px 5px 0px #020c0a;
+}
+
+.menu {
+  display: flex;
+  gap: 35px;
+}
+
+.menu a {
+  color: #F8F8F0;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #C7E99A;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+}

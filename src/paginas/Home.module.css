@@ -1,0 +1,70 @@
+.home {
+  background-color: #E5E8DC;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-family: shrikhand;
+  color: #9fc031;
+  font-size: 56px;
+  margin-bottom: 10px;
+  text-shadow: 4px 5px 0px #082F29;
+  transform: translateY(80px);
+}
+
+.logoHome {
+  position: relative;
+  display: inline-block;
+  top: -150px;
+}
+
+.folha {
+  position: absolute;
+  width: 150px;
+  right: 25px;
+  top: -80px;
+  transform: translateY(80px);
+}
+
+.hero p {
+  color: #082F29;
+  font-size: 20px;
+  font-style: oblique;
+  line-height: 10px;
+  margin-bottom: -110px;
+  transform: translateY(-70px);
+}
+
+.hero button {
+  background-color: #00594F;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: libre baskerville;
+  font-style: italic;
+  transform: translateY(90px);
+}
+
+.hero button:hover {
+  background-color: #0b3f37;
+}
+
+.logochamae {
+  width: 220px;
+  position: sticky;
+  top: 100px;
+  right:50px;
+  transform: translateY(140px);
+}
